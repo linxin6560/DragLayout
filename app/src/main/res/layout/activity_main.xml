@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.levylin.draglayout.DragRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/act_main_container_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/act_main_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/act_main_other_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="YYYYYYYYYYYYYYYYYYY" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XXXXXXXXXXXXXXXX" />
+    </LinearLayout>
+</com.levylin.draglayout.DragRelativeLayout>
